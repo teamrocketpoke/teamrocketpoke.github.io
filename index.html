@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
       <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="swiper-bundle.min.css">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="styles.css">
@@ -135,22 +135,98 @@
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Power Up <br>
+                        & Boost Your Pokemon
+                    </h1>
+
+                    <p class="home__description">
+                        15% discount for your first Web Store purchase on any item $9.99 or more!
+                    </p>
+
+                    <a href="#" class="button">Shop Now</a>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <article class="home__article swiper-slide">
+                                <img src="Assets/img/Fuzzy-Buddy-Box.png" alt="image" class="home__img">
+                            </article>
+
+                            <article class="home__article swiper-slide">
+                                <img src="Assets/img/15500-PokeCoins.png" alt="image" class="home__img">
+                            </article>
+
+                            <article class="home__article swiper-slide">
+                                <img src="Assets/img/Max-Particle-Pack.png" alt="image" class="home__img">
+                            </article>
+
+                            <article class="home__article swiper-slide">
+                                <img src="Assets/img/Ultra-Ball-Box.png" alt="image" class="home__img">
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
          </section>
 
          <!--==================== SERVICES ====================-->
          <section class="services section">
-            
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-coins-line"></i>
+                    <h3 class="services__title">Pokecoins Bonuses!</h3>
+                    <p class="services__description">Extra bonus coins ^_^</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-gift-line"></i>
+                    <h3 class="services__title">Exclusive Bundles!</h3>
+                    <p class="services__description">Special item packs and tickets :O</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-vip-diamond-line"></i>
+                    <h3 class="services__title">Reward Program!</h3>
+                    <p class="services__description">Earn points on purchases!!</p>
+                </article>
+            </div>
          </section>
 
          <!--==================== FEATURED ====================-->
-         <section class="featured section" id="featured">
+         <section class="discount section" id="discount">
             
          </section>
 
-         <!--==================== DISCOUNT ====================-->
-         <section class="discount section" id="discount">
-            
+         <!--==================== ITEM BOXES ====================-->
+         <section class="featured section" id="featured">
+            <h2 class="section__title">
+                Item Boxes
+            </h2>
+
+            <div class="featured__container container">
+                <div class="featured_swiper">
+                    <div>
+                        <article class="featured__card">
+                            <img src="Assets/img/Fuzzy-Buddy-Box.png" alt="image" class="featured__img">
+
+                            <h2 class="featured__title">Fuzzy Buddy Research Day Ultra Ticket Box</h2>
+                            <div class="featured__price">
+                                <span class="featured__discount">₱59.00</span>
+                            </div>
+
+                            <div class="featured__actions">
+                                <button><i class="ri-search-line"></i></button>
+                                <button><i class="ri-bookmark-line"></i></button>
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
          </section>
 
          <!--==================== NEW BOOKS ====================-->
@@ -181,7 +257,7 @@
       <script src=""></script>
 
       <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+      <script src="swiper-bundle.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="main.js"></script>
